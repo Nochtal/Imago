@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagoDLL", "ImagoDLL\ImagoDLL.csproj", "{D23DA618-63AF-4BF9-A952-133168F61302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagoTest", "ImagoTest\ImagoTest.csproj", "{598DD733-4995-4C95-80A9-285F8D78DA07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imago", "Imago\Imago.csproj", "{F2D8591A-7EFF-42A3-9F65-D5F0A108289C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D23DA618-63AF-4BF9-A952-133168F61302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23DA618-63AF-4BF9-A952-133168F61302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23DA618-63AF-4BF9-A952-133168F61302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23DA618-63AF-4BF9-A952-133168F61302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598DD733-4995-4C95-80A9-285F8D78DA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598DD733-4995-4C95-80A9-285F8D78DA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598DD733-4995-4C95-80A9-285F8D78DA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598DD733-4995-4C95-80A9-285F8D78DA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D8591A-7EFF-42A3-9F65-D5F0A108289C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D8591A-7EFF-42A3-9F65-D5F0A108289C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D8591A-7EFF-42A3-9F65-D5F0A108289C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D8591A-7EFF-42A3-9F65-D5F0A108289C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

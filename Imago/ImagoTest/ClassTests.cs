@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ImagoTest
 {
     [TestClass]
-    public class UnitTest1
+    public class ClassTests
     {
         [TestMethod]
         public void TestMethod1()
